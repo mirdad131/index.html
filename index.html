@@ -3,6 +3,43 @@
 <head>
     <meta charset="utf-8">
     <title>Mirdad's Personal Page</title>
+    <style>
+        body {
+            background-color: #f0f4f8;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            text-align: center;
+            padding: 40px 20px;
+            margin: 0;
+        }
+        h1 {
+            color: #1a365d;
+            font-size: 2.5rem;
+        }
+        p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 20px auto 40px auto;
+            line-height: 1.6;
+        }
+        h3 {
+            color: #2c5282;
+            margin-top: 30px;
+        }
+        img, video {
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            max-width: 100%;
+        }
+        .iframe-container {
+            max-width: 800px;
+            margin: 20px auto;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+        }
+    </style>
 </head>
 <body>
 
@@ -18,5 +55,12 @@
         Your browser does not support the video tag.
     </video>
 
+    <h3>Run My Money Management Program Live:</h3>
+    <div class="iframe-container">
+        <!-- This iframe embeds a live, functional online compiler execution window -->
+        <iframe src="https://onlinegdb.com" width="100%" height="500px" frameborder="0"></iframe>
+    </div>
+
 </body>
 </html>
+
